@@ -1,0 +1,113 @@
+/* styles/Education.css */
+.education {
+  padding: 5rem 0;
+  background-color: #f7fafc;
+}
+
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.education-content {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.education-list {
+  flex: 2;
+}
+
+.education-item {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.institution {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.period-location {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  color: #718096;
+}
+
+.coursework h4 {
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.coursework ul {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+.coursework li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.coursework li::before {
+  content: "•";
+  position: absolute;
+  left: -1rem;
+  color: #3182ce;
+  font-weight: bold;
+}
+
+.certifications {
+  flex: 1;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.certifications h3 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+.certifications ul {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+.certifications li {
+  position: relative;
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.certifications li::before {
+  content: "•";
+  position: absolute;
+  left: -1rem;
+  color: #3182ce;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .education-content {
+    flex-direction: column;
+  }
+}
